@@ -11,14 +11,23 @@
 // The first section's text should be bold.
 // The last section's text should be bold and italicized.
 // Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
-var outputElement = document.getElementByID("output-target");
-var articleElement = document.getElementByClassName("article-section");
-var headingColor = document.getElementByID("page-title");
-var addColorBtn = document.getElementByID("add-color");
-var addHulkifyBtn = document.getElementByID("make-large");
-var addBorderBtn = document.getElementByID("add-border"); 
-var addRoundingBtn = document.getElementByID("add-rounding");
+var outputElement = document.getElementById("output-target");
+var articleElement = document.getElementsByClassName("article-section");
+var headingColor = document.getElementById("page-title");
+var addColorBtn = document.getElementById("add-color");
+var guineaPig = document.getElementById("guinea-pig")
+var addHulkifyBtn = document.getElementById("make-large");
+var addBorderBtn = document.getElementById("add-border"); 
+var addRoundingBtn = document.getElementById("add-rounding");
+var inputTextFromDOM = document.getElementById("keypress-input");
 
+ 
+var textOnMouseClick function () {
+ 	outputElement.innerHTML = "You clicked the " + event.target.innerHTML + " section!"
+}
 
+document.getElementsByClassName("article-section").addEventListener("click", textOnMouseClick;
+
+console.log(textOnMouseClick);
 
 
