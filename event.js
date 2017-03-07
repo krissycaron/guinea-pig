@@ -12,7 +12,7 @@
 // The last section's text should be bold and italicized.
 // Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
 var outputElement = document.getElementById("output-target");
-var articleElement = document.getElementsByClassName("article-section");
+// var articleElement = document.getElementsByClassName("article-section");
 var headingColor = document.getElementById("page-title");
 var addColorBtn = document.getElementById("add-color");
 var guineaPig = document.getElementById("guinea-pig")
@@ -22,11 +22,11 @@ var addRoundingBtn = document.getElementById("add-rounding");
 var inputTextFromDOM = document.getElementById("keypress-input");
 
  
-var textOnMouseClick function () {
+var textOnMouseClick = function (event) {
  	outputElement.innerHTML = "You clicked the " + event.target.innerHTML + " section!"
 }
 
-document.getElementsByClassName("article-section").addEventListener("click", textOnMouseClick;
+document.getElementById("article").addEventListener("click", textOnMouseClick);
 
 console.log(textOnMouseClick);
 
