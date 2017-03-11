@@ -1,6 +1,5 @@
 // Note: Output target is the output-target element.
-// The first section's text should be bold.
-// The last section's text should be bold and italicized.
+
 // Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
 var outputElement = document.getElementById("output-target");
 // var articleElement = document.getElementsByClassName("article-section");
