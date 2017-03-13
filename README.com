@@ -34,3 +34,5 @@ touch events.css
 9. The first section's text should be bold.
 10. The last section's text should be bold and italicized.
 11. Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
+
+
