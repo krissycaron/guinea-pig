@@ -1,0 +1,38 @@
+
+.blueClass {
+	color: Blue;
+}
+
+.giantText {
+	font-size: xx-large;
+}
+
+.border {
+	border: 1px dotted purple;
+}
+
+.roundedBorder {
+	border-radius: 40%;
+}
+
+/* The first section's text should be bold. */
+
+section:first-child {
+	font-weight: bolder;
+}
+
+
+/* The last section's text should be bold and italicized.*/
+
+section:last-child {
+	font-style: italic;
+}
+
+/*Make the buttons stop appearing next to each other as inline elements. Change them into block elements.*/
+
+button {
+	display: block;
+}
+
+
+
